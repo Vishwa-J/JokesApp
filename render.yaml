@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: app
+    name: my-flask-app  # Ensure this name follows the allowed format (letters, numbers, etc.)
     env: python
     buildCommand: ""
-    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT  # This is fine
