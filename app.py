@@ -39,7 +39,7 @@ css_style = """
         .joke-item {
             margin: 15px 0;
             padding: 20px;
-            background-color: #2596BE;
+            background-color: #F92359;
             color: #333;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
