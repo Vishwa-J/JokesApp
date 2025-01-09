@@ -10,8 +10,8 @@ def home():
 
 @app.route("/MultipleJokes")
 def jokes():
-    jokes=pyjokes.get_jokes()
-    return f'<h2>{jokes}</h2>'
+    jokes="<br><br>".join(pyjokes.get_jokes())
+    return f'<h3>{jokes}</h3>'
 
 if __name__=="__main__":
     app.run(debug="True")
